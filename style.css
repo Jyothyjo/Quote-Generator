@@ -1,0 +1,44 @@
+body {
+	font-family:'Dancing Script', cursive;
+	margin: 0;
+	padding: 0;
+	background-color: beige; /* Set beige background color */
+	background-image: url('bg2.jpg'); /* Replace 'background.jpg' with your background image path */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+  
+  .container {
+	position: relative;
+	height: 100vh; /* Set container height to full screen */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  #quote-container {
+	background-color: rgba(0, 0, 0, 0.6); /* Set black transparent background color */
+	padding: 20px;
+	border-radius: 10px;
+	width: 60%; /* Set box width to 60% of screen */
+	max-width: 600px; /* Set maximum box width */
+	text-align: center;
+  }
+  
+  #quote {
+	color: white; /* Set text color to white */
+	font-size: 36px;
+	line-height: 1.5;
+  }
+  
+  #new-quote {
+	background-color: black; /* Set button background color to black */
+	color: white; /* Set button text color to white */
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+  }
+  
